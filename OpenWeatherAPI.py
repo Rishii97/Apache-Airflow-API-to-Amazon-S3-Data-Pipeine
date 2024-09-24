@@ -78,3 +78,5 @@ with DAG(
 
     # Set task dependencies
     extract_task >> transform_task >> load_task
+
+#this is the entire workflow of the project
